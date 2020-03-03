@@ -8,9 +8,11 @@ const now = moment()
 module.exports = [
   {
     id: uuid(),
-    name: "bilal",
-    email: "toto@",
-    Numero: "02",
+    titre: "voyage en italie",
+    lieu: "italie",
+    image: "toto",
+    prix: 50,
+    descriptions: " un jolie voyage avec covid19",
     created_at: now,
     updated_at: now
   }
